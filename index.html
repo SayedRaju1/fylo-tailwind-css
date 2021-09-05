@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/path/to/tailwind.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- ... -->
+</head>
+
+<body class="">
+    <header class="py-8 px-3 md:px-12 lg:px-20">
+        <nav class="md:flex md:justify-between ">
+            <img class="m-auto md:m-0 " src="images/logo.svg" alt="Flyo Logo">
+            <div class="flex mt-2 justify-items-center ">
+                <div class="m-auto">
+                    <a class="px-4" href="#">Features</a>
+                    <a class="px-4" href="#">Team</a>
+                    <a class="px-4" href="#">Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="">
+        <section class="md:flex my-10 md:my-24 px-3 md:px-12 lg:px-20">
+            <section class="md:hidden">
+                <img class="p-10" src="images/illustration-1.svg" alt="Fylo Illustration Image">
+            </section>
+            <section class="flex-1 space-y-8 flex flex-col justify-center">
+                <h2 class="md:text-5xl text-3xl text-center md:text-left font-bold">All your files in one secure
+                    location, accessible anywhere.</h2>
+                <p class="text-center md:text-left">Fylo stores your most important
+                    files in one secure location. Access them wherever you need, share and
+                    collaborate with friends, family, and co-workers.</p>
+                <div class="p-4">
+                    <input class="border mb-3 w-full md:w-80 rounded p-2 block md:inline-block" type="text" name="email"
+                        placeholder="Enter your email..." aria-label="email">
+                    <p class="bg-blue-500 md:inline-block text-center p-2 rounded font-semibold text-white px-10"
+                        href="#">Get
+                        Started
+                    </p>
+                </div>
+            </section>
+            <section class="hidden md:block md:flex-1">
+                <img class="p-5" src="images/illustration-1.svg" alt="Fylo Illustration Image">
+            </section>
+        </section>
+
+        <section class="md:flex px-3 md:px-12 lg:px-20">
+            <section class="md:hidden">
+                <img class="p-20" src="images/illustration-2.svg" alt="Fylo Illustration Image">
+            </section>
+            <section class="flex-1 space-y-8 flex flex-col justify-center">
+                <h2 class="md:text-5xl text-3xl text-center md:text-left font-bold">Stay productive, wherever you are
+                </h2>
+                <p class="text-center md:text-left">Never let location be an issue when accessing your files. Fylo has
+                    you
+                    covered for all of your file storage needs.</p>
+                <p class="text-center md:text-left">Securely share files and folders with friends, family and colleagues
+                    for
+                    live collaboration. No email attachments required!</p>
+                <p class="text-green-500 text-xl underline my-10 text-center md:text-left">
+                    See how Fylo works
+                </p>
+
+                <div class="bg-white w-80 rounded-lg shadow-lg p-6 m-auto md:m-0">
+                    <img class="card__icon inline" src="images/icon-quotes.svg" alt="quotes icon">
+                    <p class="">Fylo has improved our team productivity by an order of magnitude. Since
+                        making the switch our team has become a well-oiled collaboration machine.</p>
+                    <div class="flex pt-2 justify-around align-center">
+                        <img class="rounded-full w-20" src="images/avatar-testimonial.jpg" alt="testimonial avatar">
+                        <p class="pt-3"><span class="font-bold">Kyle Burton</span><br>Founder & CEO,
+                            Huddle</p>
+                    </div>
+                </div>
+            </section>
+            <section class="hidden md:block md:flex-1">
+                <img class="p-5" src="images/illustration-2.svg" alt="Fylo Illustration Image">
+            </section>
+        </section>
+
+        <section class="md:flex mt-20 bg-purple-500">
+            <section class="flex-1 py-10 p-5 text-center md:text-left md:px-12 lg:px-20">
+                <h2 class="text-3xl font-bold text-white">Get early access today</h2>
+                <p class="text-white mt-5">It only takes a minute to sign up and our free starter tier is extremely
+                    generous.
+                    If you have any questions, our support team would be happy to help you.</p>
+            </section>
+            <section class="flex-1 md:flex items-center">
+                <div class="p-5">
+                    <input class="rounded w-full md:w-80 p-2 block" type="text" name="email"
+                        placeholder="Enter your email..." aria-label="email">
+                    <p class="bg-blue-500 text-center md:inline-block p-2 mt-3 rounded font-semibold text-white px-10"
+                        href="#">Get
+                        Started
+                    </p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="bg-indigo-900 text-white p-5">
+        <div class="md:flex py-10 md:px-12 lg:px-20">
+            <div class="flex-1 space-y-3">
+                <img class="text-white" src="images/logo.svg" alt="Fylo Logo">
+                <ul class="space-y-3">
+                    <li>
+                        <img class="px-1 inline" src="images/icon-phone.svg" alt="phone icon">
+                        Phone: +1-543-123-4567
+                    </li>
+                    <li>
+                        <img class="px-1 inline" src="images/icon-email.svg" alt="email icon">
+                        example@fylo.com
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="flex-1 space-y-3 mt-5">
+                <a class="block" href="#">About Us</a>
+                <a class="block" href="#">Jobs</a>
+                <a class="block" href="#">Press</a>
+                <a class="block" href="#">Blog</a>
+            </nav>
+            <nav class="flex-1 space-y-3 mt-5">
+                <a class="block" href="#">Contact Us</a>
+                <a class="block" href="#">Terms</a>
+                <a class="block" href="#">Privacy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
